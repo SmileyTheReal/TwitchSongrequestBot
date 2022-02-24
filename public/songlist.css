@@ -1,0 +1,44 @@
+div.paleBlueRows {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border: 4px solid #000000;
+  text-align: center;
+  border-collapse: collapse;
+}
+.divTable.paleBlueRows .divTableCell, .divTable.paleBlueRows .divTableHead {
+  border: 4px solid #000000;
+  border-bottom: #000000;
+  padding: 3px 2px;
+}
+.divTable.paleBlueRows .divTableBody .divTableCell {
+  color: #000000;
+  font-size: 28px;
+  background: #5252522c;
+}
+.divTable.paleBlueRows .divTableHeading {
+  background: #ffb30070;
+  border-bottom: 5px solid #000000;
+}
+.divTable.paleBlueRows .divTableHeading .divTableHead {
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  border: 4px solid #000000;
+}
+.divTable.paleBlueRows .divTableHeading .divTableHead:first-child {
+  border: 4px solid #000000;
+}
+.paleBlueRows .tableFootStyle {
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+  background: #ffb30070;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
