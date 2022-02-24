@@ -202,6 +202,12 @@ function onMessageHandler (target, context, msg, self) {
 // Called every time the bot connects to Twitch chat
 function onConnectedHandler (addr, port) {
   console.log(`* Connected to ${addr}:${port}`);
+  fs.writeFile('./songrequest.txt', "", err => {
+      if(err){
+        console.error(err)
+        return
+      }
+    });
   updateQueue();
   createQueue();
 }
